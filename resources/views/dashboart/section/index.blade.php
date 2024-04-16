@@ -47,7 +47,10 @@
                             </td>                       
                             <td class="text-right pr-0">
                                 <a href="{{ route('section.show', $section->id) }}" class="btn btn-icon btn-light btn-hover-primary btn-sm">
-                                    <span class="svg-icon svg-icon-md svg-icon-primary">
+                                    <i style="color:#3699FF" class=" flaticon-visible"></i>
+                                   
+                                    {{-- <span class="svg-icon svg-icon-md svg-icon-primary">
+                                        <i class=" flaticon-visible "></i>
                                         <!--begin::Svg Icon | path:assets/media/svg/icons/General/Settings-1.svg-->
                                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
                                             <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -57,7 +60,7 @@
                                             </g>
                                         </svg>
                                         <!--end::Svg Icon-->
-                                    </span>
+                                    </span> --}}
                                 </a>
                                 <a href="{{route('section.edit', $section->id)}}" class="btn btn-icon btn-light btn-hover-primary btn-sm mx-3">
                                     <span class="svg-icon svg-icon-md svg-icon-primary">

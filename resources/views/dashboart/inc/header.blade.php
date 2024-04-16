@@ -123,7 +123,7 @@
 								<a href="{{route('menu.index')}}" class="menu-link menu-toggle">
 									<span class="svg-icon menu-icon">
 										<!--begin::Svg Icon | path:assets/media/svg/icons/Shopping/Barcode-read.svg-->
-										<i class="ki ki-bold-sort"></i>
+										<i class="flaticon-grid-menu"></i>
 										<!--end::Svg Icon-->
 									</span>
 									<span class="menu-text">Menu</span>
@@ -133,7 +133,8 @@
 							<a href="{{route('section.index')}}" class="menu-link menu-toggle">
 								<span class="svg-icon menu-icon">
 									<!--begin::Svg Icon | path:assets/media/svg/icons/Shopping/Barcode-read.svg-->
-									<i class="ki ki-bold-sort"></i>
+									<i class="flaticon-signs-1"></i>
+									
 									<!--end::Svg Icon-->
 								</span>
 								<span class="menu-text">Section</span>
@@ -143,7 +144,7 @@
 						<a href="{{ route('item.index') }}" class="menu-link menu-toggle">
 							<span class="svg-icon menu-icon">
 								<!--begin::Svg Icon | path:assets/media/svg/icons/Shopping/Barcode-read.svg-->
-								<i class="ki ki-bold-sort"></i>
+								<i class="flaticon-list-3"></i>
 								<!--end::Svg Icon-->
 							</span>
 							<span class="menu-text">Items</span>
@@ -153,7 +154,7 @@
 					<a href="{{ route('text.index') }}" class="menu-link menu-toggle">
 						<span class="svg-icon menu-icon">
 							<!--begin::Svg Icon | path:assets/media/svg/icons/Shopping/Barcode-read.svg-->
-							<i class="ki ki-bold-sort"></i>
+							<i class="flaticon-list-2"></i>
 							<!--end::Svg Icon-->
 						</span>
 						<span class="menu-text">List</span>
@@ -163,7 +164,9 @@
 					<a href="{{ route('setting.index') }}" class="menu-link menu-toggle">
 						<span class="svg-icon menu-icon">
 							<!--begin::Svg Icon | path:assets/media/svg/icons/Shopping/Barcode-read.svg-->
-							<i class="ki ki-bold-sort"></i>
+							<i class="flaticon-cogwheel-2"></i>
+							
+							
 							<!--end::Svg Icon-->
 						</span>
 						<span class="menu-text">Settings</span>
@@ -203,7 +206,7 @@
 													@php
 														
 													@endphp
-													<span class="symbol-label font-size-h5 font-weight-bold"><a href="{{ route('user',Auth::user()->id) }}"><i class="flaticon2-user"></i></a></span>
+													<span class="symbol-label font-size-h5 font-weight-bold"><a href="{{ route('user',Auth::user()->id) }}"><i class="flaticon2-user-1"></i></a></span>
 												</span>
 											</div>
 										</div>                                      
